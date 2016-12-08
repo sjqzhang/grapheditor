@@ -1,0 +1,49 @@
+2013-08-09 10:50:52.251::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+2013-08-09 10:50:52.420::INFO:  jetty-6.1.x
+2013-08-09 10:50:52.623::WARN:  failed SocketConnector @ 0.0.0.0:8084
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.mortbay.jetty.bio.SocketConnector.newServerSocket(SocketConnector.java:78)
+	at org.mortbay.jetty.bio.SocketConnector.open(SocketConnector.java:72)
+	at org.mortbay.jetty.AbstractConnector.doStart(AbstractConnector.java:251)
+	at org.mortbay.jetty.bio.SocketConnector.doStart(SocketConnector.java:145)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.Server.doStart(Server.java:221)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at com.mxgraph.examples.web.Main.main(Main.java:64)
+2013-08-09 10:50:52.630::WARN:  failed Server@1a3a234
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.mortbay.jetty.bio.SocketConnector.newServerSocket(SocketConnector.java:78)
+	at org.mortbay.jetty.bio.SocketConnector.open(SocketConnector.java:72)
+	at org.mortbay.jetty.AbstractConnector.doStart(AbstractConnector.java:251)
+	at org.mortbay.jetty.bio.SocketConnector.doStart(SocketConnector.java:145)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.Server.doStart(Server.java:221)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at com.mxgraph.examples.web.Main.main(Main.java:64)
+Exception in thread "main" java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.mortbay.jetty.bio.SocketConnector.newServerSocket(SocketConnector.java:78)
+	at org.mortbay.jetty.bio.SocketConnector.open(SocketConnector.java:72)
+	at org.mortbay.jetty.AbstractConnector.doStart(AbstractConnector.java:251)
+	at org.mortbay.jetty.bio.SocketConnector.doStart(SocketConnector.java:145)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at org.mortbay.jetty.Server.doStart(Server.java:221)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)
+	at com.mxgraph.examples.web.Main.main(Main.java:64)
+2014-01-13 09:13:43.173::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+2014-01-13 09:13:43.282::INFO:  jetty-6.1.x
+2014-01-13 09:13:43.317::INFO:  Started SocketConnector @ 0.0.0.0:8084
